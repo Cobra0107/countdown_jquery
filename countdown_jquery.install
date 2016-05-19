@@ -1,0 +1,8 @@
+<?php
+/**
+ *  @file
+ *  Handles the database tables and operation for the cuntdown.
+ */
+function countdown_jquery_install() {
+
+}

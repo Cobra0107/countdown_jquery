@@ -1,0 +1,13 @@
+<?php
+/*@file
+* Handles countdown timer building.
+*/
+function countdown_jquery_menu() {
+    $items['admin/config/countdown'] = array(
+      'title' => 'Countdown Settings',
+      'page callback' => 'drupal_get_form',
+      'page arguments' => array('countdown_jquery_form'),
+      'access arguments' => TRUE,
+      'file' => 'includes/countdown_jquery.admin.inc',
+    );
+  }
